@@ -19,7 +19,7 @@ function setup() {
 
 
 function draw() {  
-  background(45,65,200)
+  background(45,205,200)
   if (keyWentDown(UP_ARROW)){ 
 
     writeStock(foodS);
@@ -28,7 +28,10 @@ function draw() {
   }
 
   textSize(30)
-  text("food:"+ foodS,200,100)
+fill(250)
+	stroke(0)
+	strokeWeight(5)
+  text("food:"+ foodS,250,100)
   
   drawSprites();
   //add styles here
