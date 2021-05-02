@@ -35,11 +35,19 @@ function draw() {
 
   textSize(30)
   fill(250)
-	stroke(0)
-	strokeWeight(4)
+  stroke(0)
+  strokeWeight(4)
   text("food:"+ foodS,400,100)
-  
+	
+  textSize(30)
+  fill(250)
+  stroke(0)
+  strokeWeight(4)
+  text("Press UP arrow  key to feed and Space key Refill the Stock",5,50)
+	
   drawSprites();
+ 
+  
  
   
 
